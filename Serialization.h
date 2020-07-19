@@ -3,6 +3,7 @@
 #include "iostream"
 #include "ostream"
 #include "istream"
+#include <exception>
 #include <regex>
 
 class VectorGraphic;

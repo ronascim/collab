@@ -26,13 +26,13 @@ public:
     int getHeight() const;
 
     int getPointCount() const;
-    Point getPoint(int index) const; //<== Can I make this a reference?
+    Point getPoint(int index) const; 
 
 private:
     Points myPath;
-    int width;
-    int height;
     bool isopen;
+    Point topleft;
+    Point bottomright;
 
 };
 
